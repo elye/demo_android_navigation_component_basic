@@ -19,6 +19,9 @@ class LaunchActivity : AppCompatActivity() {
     fun bottomNav(view: View) {
         startActivity(Intent(this, BottomBarActivity::class.java))
     }
+    fun menuNav(view: View) {
+        startActivity(Intent(this, MenuActivity::class.java))
+    }
     fun drawerNav(view: View) {
         startActivity(Intent(this, DrawerActivity::class.java))
     }

@@ -26,7 +26,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_basic"
-        app:layout_constraintBottom_toTopOf="@+id/button_drawer"/>
+        app:layout_constraintBottom_toTopOf="@+id/button_menu"/>
+
+    <Button
+        android:id="@+id/button_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_navigation"
+        android:onClick="menuNav"
+        app:layout_constraintBottom_toTopOf="@+id/button_drawer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_bottom" />
 
     <Button
         android:id="@+id/button_drawer"
@@ -37,6 +48,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_bottom" />
+        app:layout_constraintTop_toBottomOf="@+id/button_menu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
