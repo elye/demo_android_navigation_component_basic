@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NavigationComponentDemo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_navigation">Drawer Navigation</string>
+    <string name="bottom_bar_navigation">Bottom Bar Navigation</string>
+    <string name="basic_navigation">Basic Navigation</string>
+    <string name="go_to_second">Go to Second</string>
+    <string name="go_to_first">Go to first</string>
+    <string name="home">home</string>
+    <string name="dashboard">dashboard</string>
+    <string name="notification">notification</string>
+</resources>
