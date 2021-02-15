@@ -7,6 +7,8 @@ import android.view.View
 import com.example.navigationcomponentdemo.basic.BasicActivity
 import com.example.navigationcomponentdemo.bottom.BottomBarActivity
 
+var staticCounter = 0
+
 class LaunchActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
