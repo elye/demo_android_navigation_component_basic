@@ -15,7 +15,8 @@
             android:name=".DrawerActivity"
             android:theme="@style/Theme.NavigationComponentDemo.NoActionBar" />
         <activity android:name=".bottom.BottomBarActivity" />
-        <activity android:name=".LaunchActivity">
+        <activity android:name=".LaunchActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
